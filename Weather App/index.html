@@ -1,0 +1,35 @@
+<html>
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <title>Weather App | Harshita Singh</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet">
+        <link rel="icon" href="icons8-night-48.png">
+    </head>
+
+    <body>
+        <h1 class="container" id="intro">WELCOME TO MY WEATHER APP!</h1>
+        <div id="searchContainer" class="container">
+            <input class="searchControl" type="text" placeholder="Please Enter City Name" id="searchInput">
+            <button class="searchControl" id="searchBtn">Go!</button>
+        </div>
+        <div id="weatherContainer" class="container">
+            <div id="weatherDescription">
+                <h1 id="cityHeader"></h1>
+                <div id="weatherMain">
+                    <div id="temperature"></div>
+                    <div id="weatherDescriptionHeader"></div>
+                    <div><img class="img-fluid" id="documentIconImg"></div>
+                </div>
+                <hr>
+                <div id="windSpeed" class="container bottom-details"></div>
+                <div id="humidity" class="container bottom-details"></div>
+            </div>
+        </div>
+        <script src="script.js" ></script>
+    </body>
+</html>

@@ -1,0 +1,127 @@
+body {
+    background-image: url("default.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: white;
+    text-shadow: 2px 2px 1px black;
+    font-family: 'Pangolin';
+    overflow: hidden;
+}
+#intro {
+    position: relative;
+    margin-top: 50px;
+    margin-left: 25px;
+}
+
+#weatherContainer {
+    background-color: rgba(0, 0, 0, 0.25);
+    box-shadow: 1px 1px 5px black;
+    padding: 50px;
+    border-radius: 10px;
+    position: absolute;
+    visibility: hidden;
+    margin-top: 100px;
+    margin-left: -50px;
+}
+#weatherContainer h1 {
+    margin: 5px;
+    font-size: 42px;
+}
+#searchContainer {
+    position: absolute;
+    top: 53px;
+    left: 1200px;
+}
+#searchContainer input {
+    width: 200px;
+    text-align: center; 
+}
+#searchContainer button {
+    background-color:black;
+    color: white;
+    width: 75px;
+}
+.searchControl {
+    box-shadow: 2px 2px 5px purple;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+@media (max-width: 768px) {
+    #intro{
+        margin-top: 50px;
+        margin-left: 4px;
+        text-align: left;
+    }
+    #searchContainer{
+      margin-top: 490px;
+      margin-left: -1200px;
+    }
+   #weatherContainer{
+        margin-top: 100px;
+        max-height: 300px;
+        max-width: 300px;
+        margin-left: 0px;
+    }
+    #weatherContainer h1{
+        margin: -35px;
+        font-size: 25px;
+        margin-top: 0px;
+        margin-left: -18px;
+    }
+    #weatherMain{
+        margin-left: -18px;
+        margin-top: 25px;
+    }
+    #temperature{
+        font-size: 25px !important;
+        margin-top: 10px;
+    }
+    #weatherDescriptionHeader{
+        font-size: 15px !important;
+        margin-top: 10px;
+    }
+    #windSpeed{
+        margin-top: 40px;
+        margin-left: -30px;
+        text-align: left;
+        font-size: 17px;
+    }
+    #humidity{
+        margin-left: -30px;
+        text-align: left;
+        font-size: 17px;
+    }
+    #documentIconImg{
+        margin: -25px;
+    }
+}
+#documentIconImg{
+    position: relative;
+    margin-top: -48px;
+    margin-left: 5px;
+}
+#weatherMain {
+    display: block;
+    margin-bottom: 20px;
+}
+#weatherMain div {
+    display: inline-block;
+}
+#weatherDescriptionHeader {
+    font-size: 28px;
+    vertical-align: 50%;
+}
+#temperature {
+    font-size: 38px;
+    vertical-align: 25%;
+}
+.bottom-details {
+    display: block;
+    font-size: 24px;
+    text-align: right;
+}
+hr {
+    margin-bottom: 20px;
+}

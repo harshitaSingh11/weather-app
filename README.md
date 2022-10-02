@@ -1,1 +1,1 @@
-Weather Website
+Weather Website using JavaScript and OpenWeather API.
